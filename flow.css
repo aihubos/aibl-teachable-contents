@@ -65,6 +65,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:"Pretendard Vari
  @keyframes in{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media(max-width:420px){.bar-l img{width:104px;height:auto}.bar-r{gap:6px}.bar-r .btn{padding:0 9px;font-size:12.5px;height:34px}}
+@media(max-width:360px){.bar-r a[href="list.html"]{display:none}}
 
 
 /* ===== 스타일 전환 레이어 (2026-10-31) ===== */
