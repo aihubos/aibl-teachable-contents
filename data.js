@@ -2,6 +2,12 @@ window.CONTENTS = [
  {
   "area": "기초",
   "title": "AI 기본 개념 (비유로 이해하기)",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "입문",
   "n": 2,
   "out": "유료 결제·다음 과정 판단 기준",
   "ready": "ready",
@@ -10,6 +16,12 @@ window.CONTENTS = [
  {
   "area": "기초",
   "title": "프롬프트 잘 쓰는 법 (STIC)",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "입문",
   "n": 1,
   "out": "내 업무용 요청문 3개",
   "ready": "partial",
@@ -18,6 +30,10 @@ window.CONTENTS = [
  {
   "area": "기초",
   "title": "임원을 위한 AI 업무 가이드",
+  "aud": [
+   "일반인"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "부서별 AI 도입 체크리스트",
   "ready": "ready",
@@ -26,6 +42,12 @@ window.CONTENTS = [
  {
   "area": "도구 준비",
   "title": "Aside 설치·크롬 세팅·모델 설정",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "입문",
   "n": 2,
   "out": "Aside 설치 + 첫 요청",
   "ready": "ready",
@@ -34,6 +56,12 @@ window.CONTENTS = [
  {
   "area": "도구 준비",
   "title": "Grok Bot 설치·연결",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "입문",
   "n": 1,
   "out": "Grok Bot 첫 대화",
   "ready": "ready",
@@ -42,6 +70,11 @@ window.CONTENTS = [
  {
   "area": "도구 준비",
   "title": "AI 에이전트(Codex) 설치·첫 자동화",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "메모 정리 자동화 1개",
   "ready": "ready",
@@ -50,6 +83,11 @@ window.CONTENTS = [
  {
   "area": "업무 자동화",
   "title": "일정·할 일 비서 (캘린더·메일)",
+  "aud": [
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "매일 아침 브리핑",
   "ready": "ready",
@@ -58,6 +96,11 @@ window.CONTENTS = [
  {
   "area": "업무 자동화",
   "title": "블로그·SNS 글 자동화",
+  "aud": [
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "블로그 초안 + SNS 3종",
   "ready": "ready",
@@ -66,6 +109,12 @@ window.CONTENTS = [
  {
   "area": "업무 자동화",
   "title": "Aside로 웹 업무 맡기기",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "출처 있는 비교표 + 반복 루틴",
   "ready": "ready",
@@ -74,6 +123,11 @@ window.CONTENTS = [
  {
   "area": "업무 자동화",
   "title": "주문 자동화 (결제 직전 멈춤)",
+  "aud": [
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 1,
   "out": "항공권·쇼핑 비교표",
   "ready": "ready",
@@ -82,6 +136,10 @@ window.CONTENTS = [
  {
   "area": "업무 자동화",
   "title": "문서·자료·반복 업무 다루기",
+  "aud": [
+   "일반인"
+  ],
+  "level": "중급",
   "n": 2,
   "out": "재사용 요청문·업무 템플릿",
   "ready": "partial",
@@ -90,6 +148,10 @@ window.CONTENTS = [
  {
   "area": "업무 자동화",
   "title": "회의록 자동 정리",
+  "aud": [
+   "일반인"
+  ],
+  "level": "초급",
   "n": 1,
   "out": "회의록 요약·할 일 표",
   "ready": "new",
@@ -98,6 +160,12 @@ window.CONTENTS = [
  {
   "area": "업무 자동화",
   "title": "카톡 대화방 분석",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 1,
   "out": "대화 요약·참여 통계",
   "ready": "new",
@@ -106,6 +174,11 @@ window.CONTENTS = [
  {
   "area": "지식 관리",
   "title": "LLM Wiki 지식창고",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "중급",
   "n": 2,
   "out": "출처 달린 작은 위키",
   "ready": "ready",
@@ -114,6 +187,11 @@ window.CONTENTS = [
  {
   "area": "지식 관리",
   "title": "옵시디언 입문",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "내 노트 보관함",
   "ready": "ready",
@@ -122,6 +200,11 @@ window.CONTENTS = [
  {
   "area": "지식 관리",
   "title": "AI 웹 보고서 만들기",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "중급",
   "n": 3,
   "out": "공개 웹 보고서 1편",
   "ready": "ready",
@@ -130,6 +213,12 @@ window.CONTENTS = [
  {
   "area": "만들기",
   "title": "내 홈페이지 만들기",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "공개 홈페이지 주소",
   "ready": "ready",
@@ -138,6 +227,10 @@ window.CONTENTS = [
  {
   "area": "만들기",
   "title": "대시보드 만들기",
+  "aud": [
+   "일반인"
+  ],
+  "level": "중급",
   "n": 2,
   "out": "숫자가 바뀌는 대시보드",
   "ready": "ready",
@@ -146,6 +239,11 @@ window.CONTENTS = [
  {
   "area": "만들기",
   "title": "미니 게임 만들기",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "공개 게임 주소",
   "ready": "ready",
@@ -154,6 +252,10 @@ window.CONTENTS = [
  {
   "area": "만들기",
   "title": "AI 비서 Hermes (텔레그램)",
+  "aud": [
+   "일반인"
+  ],
+  "level": "고급",
   "n": 2,
   "out": "예약 브리핑 받는 비서",
   "ready": "ready",
@@ -162,6 +264,11 @@ window.CONTENTS = [
  {
   "area": "만들기",
   "title": "작은 앱 만들기 (할 일 앱)",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "중급",
   "n": 2,
   "out": "입력·결과가 있는 앱",
   "ready": "partial",
@@ -170,6 +277,11 @@ window.CONTENTS = [
  {
   "area": "만들기",
   "title": "내 원고로 전자책 만들기",
+  "aud": [
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 1,
   "out": "EPUB 파일 1권",
   "ready": "new",
@@ -178,6 +290,11 @@ window.CONTENTS = [
  {
   "area": "만들기",
   "title": "프롬프트 생성기 웹앱",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "중급",
   "n": 1,
   "out": "나만의 생성기 페이지",
   "ready": "new",
@@ -186,6 +303,12 @@ window.CONTENTS = [
  {
   "area": "콘텐츠·영상",
   "title": "AI 쇼츠 만들기",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "30초 세로 쇼츠",
   "ready": "ready",
@@ -194,6 +317,11 @@ window.CONTENTS = [
  {
   "area": "콘텐츠·영상",
   "title": "캐릭터 시트 + 쇼츠·롱폼",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "중급",
   "n": 2,
   "out": "캐릭터 시트 + 영상 2편",
   "ready": "ready",
@@ -202,6 +330,11 @@ window.CONTENTS = [
  {
   "area": "콘텐츠·영상",
   "title": "카드뉴스 만들기",
+  "aud": [
+   "일반인",
+   "시니어"
+  ],
+  "level": "초급",
   "n": 2,
   "out": "카드뉴스 10장",
   "ready": "ready",
@@ -210,6 +343,11 @@ window.CONTENTS = [
  {
   "area": "콘텐츠·영상",
   "title": "PPT 자동 제작",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "중급",
   "n": 2,
   "out": "내 양식 PPT 1개",
   "ready": "partial",
@@ -218,6 +356,10 @@ window.CONTENTS = [
  {
   "area": "콘텐츠·영상",
   "title": "타이포 모션 영상 + AI 내레이션",
+  "aud": [
+   "일반인"
+  ],
+  "level": "고급",
   "n": 2,
   "out": "2분 소개 영상",
   "ready": "partial",
@@ -226,6 +368,10 @@ window.CONTENTS = [
  {
   "area": "콘텐츠·영상",
   "title": "HyperFrames 영상 편집",
+  "aud": [
+   "일반인"
+  ],
+  "level": "고급",
   "n": 2,
   "out": "자막·장면 연결 MP4",
   "ready": "partial",
@@ -234,6 +380,12 @@ window.CONTENTS = [
  {
   "area": "콘텐츠·영상",
   "title": "AI 이미지 생성",
+  "aud": [
+   "학생",
+   "일반인",
+   "시니어"
+  ],
+  "level": "입문",
   "n": 1,
   "out": "이미지 프롬프트 세트",
   "ready": "new",
@@ -242,6 +394,11 @@ window.CONTENTS = [
  {
   "area": "심화",
   "title": "AI 광고·공모전 영상 제작 사례",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "중급",
   "n": 1,
   "out": "기획→생성→편집 흐름 이해",
   "ready": "new",
@@ -250,6 +407,11 @@ window.CONTENTS = [
  {
   "area": "심화",
   "title": "3D 모션 그래픽 (블렌더)",
+  "aud": [
+   "학생",
+   "일반인"
+  ],
+  "level": "고급",
   "n": 2,
   "out": "3D 쇼릴 1편",
   "ready": "new",
