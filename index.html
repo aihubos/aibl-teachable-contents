@@ -8,10 +8,11 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="fonts/pretendard.css">
   <link rel="stylesheet" href="flow.css">
+  <script>try{var t=new URLSearchParams(location.search).get("style")||localStorage.getItem("aibl-style");if(t)document.documentElement.dataset.pre=t}catch(e){}</script>
   <script src="data.js" defer></script>
   <script src="flow.js" defer></script>
 </head>
-<body>
+<body data-theme="n8n">
   <header class="bar">
     <div class="bar-l"><img src="brand-wordmark.png" alt="AI빌더스랩" width="132" height="32"><span class="crumb" id="crumb">교육 콘텐츠 워크플로</span></div>
     <div class="bar-r"><button type="button" class="btn ghost" id="reset">처음부터</button><a class="btn" href="list.html">전체 목록</a></div>
@@ -30,6 +31,7 @@
     <div class="panel-in" id="panel-in"></div>
   </aside>
   <div class="scrim" id="scrim" hidden></div>
+  <nav class="dock" id="dock" aria-label="화면 스타일"><span class="dock-l">스타일</span></nav>
   <div id="live" class="sr" role="status" aria-live="polite"></div>
 </body>
 </html>

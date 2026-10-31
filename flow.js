@@ -65,6 +65,14 @@ $('reset').addEventListener('click',function(){st={aud:null,level:null,item:null
 var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(function(){edges();panel()},80)});
 $('canvas').addEventListener('scroll',function(){requestAnimationFrame(edges)},{passive:true});
 document.fonts&&document.fonts.ready.then(edges);
+var THEMES=[['n8n','n8n','#ff6d5a'],['toss','토스','#3182f6'],['dark','다크','#16181d'],['note','노트','#fbfaf7'],['neon','네온','#c6ff3d'],['jam','피그잼','#ffd9e8'],['blueprint','블루프린트','#12355b']];
+function setTheme(k,save){if(!THEMES.some(function(t){return t[0]===k}))k='n8n';document.body.dataset.theme=k;
+ $('dock').innerHTML='<span class="dock-l">스타일</span>'+THEMES.map(function(t){return'<button type="button" data-theme-k="'+t[0]+'" aria-pressed="'+(t[0]===k)+'"><span class="sw" style="background:'+t[2]+'"></span>'+t[1]+'</button>'}).join('');
+ var m=document.querySelector('meta[name=theme-color]');if(m)m.content=getComputedStyle(document.querySelector('.bar')).backgroundColor;
+ if(save){try{localStorage.setItem('aibl-style',k)}catch(e){}var u=new URL(location.href);if(k==='n8n')u.searchParams.delete('style');else u.searchParams.set('style',k);history.replaceState(null,'',u.pathname+u.search)}
+ requestAnimationFrame(edges)}
+document.addEventListener('click',function(e){var b=e.target.closest('[data-theme-k]');if(!b)return;setTheme(b.dataset.themeK,true);$('live').textContent=b.textContent+' 스타일로 바꿨어요'});
+setTheme(document.documentElement.dataset.pre||'n8n',false);
 render();
 })();
 
